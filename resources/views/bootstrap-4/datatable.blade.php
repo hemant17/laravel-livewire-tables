@@ -19,10 +19,7 @@
     <div class="d-md-flex justify-content-between mb-3">
         <div class="d-md-flex">
             @include('livewire-tables::bootstrap-4.includes.search')
-
-            <div class="ml-0 ml-md-3 mb-3 mb-md-0">
-                @include('livewire-tables::bootstrap-4.includes.filters')
-            </div>
+            @include('livewire-tables::bootstrap-4.includes.filters')
         </div>
 
         <div class="d-md-flex">
